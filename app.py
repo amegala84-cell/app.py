@@ -43,7 +43,7 @@ def home():
         Watch Video
         </a>
 
-        <a href='https://wa.me/919999999999' target='_blank'>
+        <a href='https://wa.me/918012285342' target='_blank'>
         Buy Now
         </a>
     </div>
