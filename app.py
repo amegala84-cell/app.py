@@ -35,7 +35,7 @@ def home():
     <h1 align='center'>Arduino Projects Store</h1>
 
     <div class='card'>
-        <img src='WhatsApp Image 2026-06-02 at 5.32.15 PM.jpeg.com/250'>
+        <img src='static/fishfeeder.jpeg.com/250'>
         <h2>Automatic Fish Feeder</h2>
         <h3>₹999</h3>
 
@@ -43,7 +43,7 @@ def home():
         Watch Video
         </a>
 
-        <a href='https://wa.me/918012285342' target='_blank'>
+        <a href='https://wa.me/918012285342' target='918012285342'>
         Buy Now
         </a>
     </div>
