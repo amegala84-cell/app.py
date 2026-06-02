@@ -37,6 +37,7 @@ def home():
     <div class='card'>
         <h1>Automatic Fish Feeder</h2>
         <h2>₹599</h3>
+        <h3>Stock : 1 left</h4>
 
         <a href='https://www.youtube.com/shorts/nkrd7me6-q0?feature=share' target='_blank'>
         Watch Video
