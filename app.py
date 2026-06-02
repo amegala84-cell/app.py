@@ -39,7 +39,7 @@ def home():
         <h2>Automatic Fish Feeder</h2>
         <h3>₹999</h3>
 
-        <a href='https://youtube.com' target='https://www.youtube.com/shorts/uQl3ZCW4UoM'>
+        <a href='https://www.youtube.com/shorts/uQl3ZCW4UoM' target='_blank'>
         Watch Video
         </a>
 
