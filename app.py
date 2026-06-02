@@ -5,52 +5,122 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <html>
-    <head>
-    <style>
-    .card{
-        width:300px;
-        border:1px solid #ddd;
-        padding:20px;
-        margin:20px auto;
-        text-align:center;
-        border-radius:10px;
-    }
-    img{
-        width:250px;
-        border-radius:10px;
-    }
-    a{
-        text-decoration:none;
-        padding:10px 15px;
-        background:blue;
-        color:white;
-        border-radius:5px;
-        margin:5px;
-    }
-    </style>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <h1 align='center'>Arduino Projects Store</h1>
+<title>Arduino Projects Store</title>
 
-    <div class='card'>
-        <h1>Automatic Fish Feeder</h2>
-        <h2>₹599</h3>
-        <h3>Stock : 1 left</h4>
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f2f2f2;
+    margin:0;
+    padding:15px;
+}
 
-        <a href='https://www.youtube.com/shorts/nkrd7me6-q0?feature=share' target='_blank'>
-        Watch Video
-        </a>
+.header{
+    text-align:center;
+    color:#0066cc;
+}
 
-        <a href='https://wa.me/918012285342' target='918012285342'>
-        Buy Now
-        </a>
-    </div>
+.card{
+    background:white;
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+}
 
-    </body>
-    </html>
-    """
+.price{
+    color:green;
+    font-size:32px;
+    font-weight:bold;
+}
+
+.stock{
+    color:white;
+    background:green;
+    display:inline-block;
+    padding:8px 15px;
+    border-radius:20px;
+    margin-top:10px;
+}
+
+.btn{
+    display:block;
+    text-align:center;
+    padding:15px;
+    margin-top:15px;
+    text-decoration:none;
+    color:white;
+    border-radius:10px;
+    font-size:18px;
+}
+
+.video{
+    background:#ff0000;
+}
+
+.buy{
+    background:#25D366;
+}
+
+.warranty{
+    margin-top:20px;
+    background:#eef5ff;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<h1 class="header">Arduino Projects Store</h1>
+
+<div class="card">
+
+<h2>🐟 Automatic Fish Feeder</h2>
+
+<p>
+Automatic Fish Feeder using Arduino UNO and Servo Motor.
+Feeds fish automatically at scheduled timings.
+</p>
+
+<div class="price">₹599</div>
+
+<div class="stock">
+🔥 Only 1 Left In Stock
+</div>
+
+<br><br>
+
+<a class="btn video"
+href="https://www.youtube.com/shorts/nkrd7me6-q0?feature=share"
+target="_blank">
+▶ Watch Demo Video
+</a>
+
+<a class="btn buy"
+href="https://wa.me/918012285342"
+target="_blank">
+🛒 Buy on WhatsApp
+</a>
+
+<div class="quality">
+✅ Arduino Code Included<br>
+✅ Project Support Available
+</div>
+
+</div>
+
+</body>
+</html>
+"""
 
 if __name__ == "__main__":
     app.run()
