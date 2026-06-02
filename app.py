@@ -4,4 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Cloud!"
+    return """
+    <h1>Welcome to Sakshain!</h1>
+    <p>My first cloud website.</p>
+    """
