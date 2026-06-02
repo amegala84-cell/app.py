@@ -35,9 +35,8 @@ def home():
     <h1 align='center'>Arduino Projects Store</h1>
 
     <div class='card'>
-        <img src='/static/fishfeeder.jpeg.com/250'>
-        <h2>Automatic Fish Feeder</h2>
-        <h3>₹999</h3>
+        <h1>Automatic Fish Feeder</h2>
+        <h2>₹999</h3>
 
         <a href='https://www.youtube.com/shorts/uQl3ZCW4UoM' target='_blank'>
         Watch Video
