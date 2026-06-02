@@ -35,7 +35,7 @@ def home():
     <h1 align='center'>Arduino Projects Store</h1>
 
     <div class='card'>
-        <img src='https://via.placeholder.com/250'>
+        <img src='WhatsApp Image 2026-06-02 at 5.32.15 PM.jpeg.com/250'>
         <h2>Automatic Fish Feeder</h2>
         <h3>₹999</h3>
 
