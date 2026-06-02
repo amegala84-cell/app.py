@@ -63,6 +63,7 @@ def contact():
     return """
     <h1>Contact</h1>
     <p>Email: amegala84@gmail.com</p>
+    <p>contact : 8012285342</p>
     <a href="/">Back Home</a>
     """
 
