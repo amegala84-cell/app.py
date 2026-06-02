@@ -5,66 +5,51 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <!DOCTYPE html>
     <html>
     <head>
-        <title>Megala Portfolio</title>
-        <style>
-            body{
-                font-family: Arial;
-                text-align:center;
-                background:#f4f4f4;
-                padding:50px;
-            }
-            .card{
-                background:white;
-                padding:30px;
-                border-radius:15px;
-                max-width:700px;
-                margin:auto;
-                box-shadow:0 0 10px rgba(0,0,0,0.2);
-            }
-            a{
-                text-decoration:none;
-                color:white;
-                background:#007bff;
-                padding:10px 20px;
-                border-radius:5px;
-            }
-        </style>
+    <style>
+    .card{
+        width:300px;
+        border:1px solid #ddd;
+        padding:20px;
+        margin:20px auto;
+        text-align:center;
+        border-radius:10px;
+    }
+    img{
+        width:250px;
+        border-radius:10px;
+    }
+    a{
+        text-decoration:none;
+        padding:10px 15px;
+        background:blue;
+        color:white;
+        border-radius:5px;
+        margin:5px;
+    }
+    </style>
     </head>
     <body>
-        <div class="card">
-            <h1>MEGALA A</h1>
-            <h3>Mathematics Professor</h3>
 
-            <p>
-            Welcome to my professional portfolio website.
-            </p>
+    <h1 align='center'>Arduino Projects Store</h1>
 
-            <h2>Skills</h2>
-            <p>Mathematics | Teaching | Research | Python | Arduino</p>
+    <div class='card'>
+        <img src='https://via.placeholder.com/250'>
+        <h2>Automatic Fish Feeder</h2>
+        <h3>₹999</h3>
 
-            <h2>Education</h2>
-            <p>M.Sc Mathematics</p>
+        <a href='https://youtube.com' target='_blank'>
+        Watch Video
+        </a>
 
-            <h2>Projects</h2>
-            <p>Arduino Fish Feeder, Python Applications, Academic Research</p>
+        <a href='https://wa.me/919999999999' target='_blank'>
+        Buy Now
+        </a>
+    </div>
 
-            <br>
-            <a href="/contact">Contact Me</a>
-        </div>
     </body>
     </html>
-    """
-
-@app.route("/contact")
-def contact():
-    return """
-    <h1>Contact</h1>
-    <p>Email: amegala84@gmail.com</p>
-    <p>contact : 8012285342</p>
-    <a href="/">Back Home</a>
     """
 
 if __name__ == "__main__":
